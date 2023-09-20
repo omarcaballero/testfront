@@ -1,0 +1,13 @@
+.detalles{
+    padding-left: 70px;
+    padding-bottom: 100px;
+    color: #FFE81F;
+    text-align: center;
+}
+.detalles ul{
+    padding: 0;
+}
+.detalles li{
+    list-style: none;
+    padding:20px 0px;
+}

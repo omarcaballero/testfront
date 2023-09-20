@@ -1,0 +1,10 @@
+
+.scroll-text{ 
+    background-image: url(http://untroubled.org/backgrounds/space/stars.gif);
+    animation: scroll 70s linear infinite;
+}
+
+@keyframes scroll{
+    from{ top: 0};
+    to{ top: -1000px};
+}

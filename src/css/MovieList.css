@@ -1,0 +1,23 @@
+.detalle{
+    color: white;
+}
+.movie-list-title {
+    text-align: center;
+    color: #FFE81F;
+  }
+  
+  .movie-list-item {
+    color: #FFE81F;
+    list-style: none;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: background-color 0.3s;
+    padding: 10px;
+  }
+  
+  .movie-list-item:hover {
+    color: rgb(0, 0, 0);
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%);
+  }
