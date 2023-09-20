@@ -22,6 +22,7 @@ function MovieDetail({ movie }) {
   }
 
   return (
+    <div class="starWarsScroll">
     <div class="detalles">
       <h2>Detalles de la Película</h2>
       <p>Título: {movie.title}</p>
@@ -34,6 +35,7 @@ function MovieDetail({ movie }) {
           </li>
         ))}
       </ul>
+    </div>
     </div>
   );
 }

@@ -11,3 +11,27 @@
     list-style: none;
     padding:20px 0px;
 }
+@keyframes scrollStarWars {
+    0% {
+      transform: translateY(100vh);
+    }
+    100% {
+      transform: translateY(-300vh);
+    }
+  }
+  
+  .starWarsScroll {
+    font-size: 2em;
+    color: yellow;
+    text-align: center;
+    perspective: 300px;
+    transform-style: preserve-3d;
+    overflow: hidden;
+    height: 100vh;
+  }
+  
+  .starWarsScroll .detalles {
+    animation: scrollStarWars 60s infinite;
+    animation-timing-function: linear;
+  }
+ 
